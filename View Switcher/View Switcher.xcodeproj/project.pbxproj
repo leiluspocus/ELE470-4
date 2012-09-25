@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308E0E6616122DF800B53418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308E0E6516122DF800B53418 /* UIKit.framework */; };
+		308E0E6816122DF800B53418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308E0E6716122DF800B53418 /* Foundation.framework */; };
+		308E0E6A16122DF800B53418 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308E0E6916122DF800B53418 /* CoreGraphics.framework */; };
+		308E0E7016122DF800B53418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 308E0E6E16122DF800B53418 /* InfoPlist.strings */; };
+		308E0E7216122DF800B53418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 308E0E7116122DF800B53418 /* main.m */; };
+		308E0E7616122DF800B53418 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 308E0E7516122DF800B53418 /* BIDAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		308E0E6116122DF800B53418 /* View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		308E0E6516122DF800B53418 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		308E0E6716122DF800B53418 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		308E0E6916122DF800B53418 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		308E0E6D16122DF800B53418 /* View Switcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View Switcher-Info.plist"; sourceTree = "<group>"; };
+		308E0E6F16122DF800B53418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		308E0E7116122DF800B53418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		308E0E7316122DF800B53418 /* View Switcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View Switcher-Prefix.pch"; sourceTree = "<group>"; };
+		308E0E7416122DF800B53418 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		308E0E7516122DF800B53418 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		308E0E5E16122DF800B53418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308E0E6616122DF800B53418 /* UIKit.framework in Frameworks */,
+				308E0E6816122DF800B53418 /* Foundation.framework in Frameworks */,
+				308E0E6A16122DF800B53418 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		308E0E5616122DF800B53418 = {
+			isa = PBXGroup;
+			children = (
+				308E0E6B16122DF800B53418 /* View Switcher */,
+				308E0E6416122DF800B53418 /* Frameworks */,
+				308E0E6216122DF800B53418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		308E0E6216122DF800B53418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				308E0E6116122DF800B53418 /* View Switcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		308E0E6416122DF800B53418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				308E0E6516122DF800B53418 /* UIKit.framework */,
+				308E0E6716122DF800B53418 /* Foundation.framework */,
+				308E0E6916122DF800B53418 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		308E0E6B16122DF800B53418 /* View Switcher */ = {
+			isa = PBXGroup;
+			children = (
+				308E0E7416122DF800B53418 /* BIDAppDelegate.h */,
+				308E0E7516122DF800B53418 /* BIDAppDelegate.m */,
+				308E0E6C16122DF800B53418 /* Supporting Files */,
+			);
+			path = "View Switcher";
+			sourceTree = "<group>";
+		};
+		308E0E6C16122DF800B53418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				308E0E6D16122DF800B53418 /* View Switcher-Info.plist */,
+				308E0E6E16122DF800B53418 /* InfoPlist.strings */,
+				308E0E7116122DF800B53418 /* main.m */,
+				308E0E7316122DF800B53418 /* View Switcher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		308E0E6016122DF800B53418 /* View Switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308E0E7916122DF800B53418 /* Build configuration list for PBXNativeTarget "View Switcher" */;
+			buildPhases = (
+				308E0E5D16122DF800B53418 /* Sources */,
+				308E0E5E16122DF800B53418 /* Frameworks */,
+				308E0E5F16122DF800B53418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "View Switcher";
+			productName = "View Switcher";
+			productReference = 308E0E6116122DF800B53418 /* View Switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		308E0E5816122DF800B53418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = URI;
+			};
+			buildConfigurationList = 308E0E5B16122DF800B53418 /* Build configuration list for PBXProject "View Switcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 308E0E5616122DF800B53418;
+			productRefGroup = 308E0E6216122DF800B53418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				308E0E6016122DF800B53418 /* View Switcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		308E0E5F16122DF800B53418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308E0E7016122DF800B53418 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		308E0E5D16122DF800B53418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308E0E7216122DF800B53418 /* main.m in Sources */,
+				308E0E7616122DF800B53418 /* BIDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		308E0E6E16122DF800B53418 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308E0E6F16122DF800B53418 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		308E0E7716122DF800B53418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		308E0E7816122DF800B53418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		308E0E7A16122DF800B53418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View Switcher/View Switcher-Prefix.pch";
+				INFOPLIST_FILE = "View Switcher/View Switcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		308E0E7B16122DF800B53418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View Switcher/View Switcher-Prefix.pch";
+				INFOPLIST_FILE = "View Switcher/View Switcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		308E0E5B16122DF800B53418 /* Build configuration list for PBXProject "View Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308E0E7716122DF800B53418 /* Debug */,
+				308E0E7816122DF800B53418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308E0E7916122DF800B53418 /* Build configuration list for PBXNativeTarget "View Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308E0E7A16122DF800B53418 /* Debug */,
+				308E0E7B16122DF800B53418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 308E0E5816122DF800B53418 /* Project object */;
+}
